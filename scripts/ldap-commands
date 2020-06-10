@@ -1,0 +1,4 @@
+# To add top OU for nfsmounts
+# Replace your top ou with "dc=mydb,dc=local"
+  
+ldapadd -x -W -D "cn=manager,dc=mydb,dc=local" -f top-ou.ldif

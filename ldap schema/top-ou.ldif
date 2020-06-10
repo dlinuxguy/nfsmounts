@@ -1,0 +1,21 @@
+# Before you add OUs for nfsmount
+# Replace your top OU with "dc=mydb,dc=local"
+#
+#
+
+dn: ou=nfsMounts,dc=mydb,dc=local
+objectClass: top
+objectClass: organizationalUnit
+ou: nfsMounts
+
+dn: ou=nfsClients,ou=nfsMounts,dc=mydb,dc=local
+objectClass: top
+objectClass: organizationalUnit
+ou: nfsClients
+
+dn: ou=nfsVolumes,ou=nfsMounts,dc=mydb,dc=local
+objectClass: top
+objectClass: organizationalUnit
+ou: nfsVolumes
+
+
