@@ -1,6 +1,7 @@
 # AUTO-GENERATED FILE - DO NOT EDIT!! Use ldapmodify.
 # CRC32 9e41f1bb
 # Author: Chintan Murty
+# OID location: https://www.iana.org/assignments/enterprise-numbers/enterprise-numbers
 # Email: DLinuxGuy@gmail.com
 # Version: 5.0
 dn: cn=nfsmount-55838-5,cn=schema,cn=config
